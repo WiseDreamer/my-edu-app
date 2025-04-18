@@ -1,0 +1,3 @@
+Frustrating issues with BrightPath Project:
+
+-Modules not Displaying dynamically from a database.

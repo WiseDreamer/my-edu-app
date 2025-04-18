@@ -1,0 +1,1048 @@
+/* Global Reset & Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e3f2fd; /* Light blue for login background */
+}
+
+/* Transition Animation */
+.transition-wrapper {
+  animation: fadeInDown 0.6s ease-out;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Login Page Header */
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+}
+
+.login-header .app-name {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: #ffeb3b; /* bright yellow to symbolize brightness */
+  border-radius: 4px;
+}
+
+/* Menu Button in Login Header */
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-btn:hover {
+  color: red;
+}
+
+/* Login Container */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto; /* Adjusted to account for header */
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.login-form button {
+  background-color: #1976d2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #1565c0;
+}
+
+.login-extra {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.login-extra span {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.login-extra span:hover {
+  color: #0d47a1;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+  background-color: #3949ab;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.app-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  background-color: #ffeb3b; /* Bright background for app name */
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.2s;
+}
+
+.header-nav a:hover {
+  background-color: #5c6bc0;
+  border-radius: 4px;
+}
+
+/* Profile in Header */
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon {
+  background-color: #fff;
+  color: #3949ab;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Profile Menu */
+.profile-menu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.profile-menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.profile-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 100;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.close-sidebar {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.welcome-card {
+  background-color: #fffde7;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 20px;
+  margin-top: 10px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #66bb6a;
+  border-radius: 20px 0 0 20px;
+}
+
+/* Module Cards */
+.modules-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.module-card {
+  background-color: #e8eaf6;
+  width: 240px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.module-card h3 {
+  margin-bottom: 10px;
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.module-card .continue-learning {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #3949ab;
+  text-decoration: underline;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.module-card:hover .continue-learning {
+  opacity: 1;
+}
+
+/* Footer Styles */
+.dashboard-footer {
+  background-color: #283593;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.dashboard-footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.dashboard-footer .social-icons a:hover {
+  color: #ffeb3b;
+}
+/* Module Page Layout */
+.module-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.module-header {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.module-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.module-sidebar {
+  width: 25%;
+  background: #f5f5f5;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.module-sidebar section {
+  margin-bottom: 20px;
+}
+
+.module-sidebar h2 {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.language-options button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.language-options button:hover {
+  background-color: #ddd;
+}
+
+.module-main {
+  width: 75%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.module-board {
+  flex: 1;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Rounded corners and dynamic text color are set inline in the component */
+}
+
+/* Module Footer Layout */
+.module-footer {
+  height: 7%;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer Left: Annotation Tools Icons */
+.footer-left i {
+  font-size: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-left i:hover {
+  color: #555;
+}
+
+/* Footer Center: Playback Controls Icons */
+.footer-center i {
+  font-size: 28px;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-center i:hover {
+  color: #555;
+}
+
+/* Footer Right: Message Input & Record/Send Icon */
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-right input {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.footer-right i {
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-right i:hover {
+  color: #555;
+}
+
+/* Example Icon Styles (using pseudo-elements; replace with your preferred icon library) */
+.icon-pen:before {
+  content: "\270E";  /* Pencil */
+}
+
+.icon-highlighter:before {
+  content: "\1F58B"; /* Highlighter/Marker */
+}
+
+.icon-eraser:before {
+  content: "\1F58A"; /* Eraser-like symbol */
+}
+
+.icon-tools:before {
+  content: "\2699";  /* Gear */
+}
+
+.icon-previous:before {
+  content: "\23EE";  /* Previous track symbol */
+}
+
+.icon-play:before {
+  content: "\25B6";  /* Play triangle */
+}
+
+.icon-play.pause:before {
+  content: "\23F8";  /* Pause symbol */
+}
+
+.icon-record:before {
+  content: "\1F3A4";  /* Microphone */
+}
+
+.icon-record.send:before {
+  content: "\27A4";  /* Arrow for send */
+}
+
+
+
+
+
+
+
+/* Header for Module Page */
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-left .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffeb3b; /* bright text as in dashboard */
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.header-right i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.header-right i:hover {
+  color: #555;
+}
+
+
+/* Sidebar adjustments */
+.module-sidebar {
+  width: 25%;
+  background: #f5f5f5;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.module-todo h2, .module-leaderboards h2 {
+  margin-bottom: 10px;
+}
+
+.module-todo ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.view-all-btn {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Leaderboards Graphics */
+.leaderboard-graphics {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.leaderboard-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.icon-trophy {
+  font-size: 28px;
+}
+
+.icon-trophy.gold:before {
+  content: "\1F947"; /* Gold trophy/medal */
+}
+
+.icon-trophy.silver:before {
+  content: "\1F948"; /* Silver trophy/medal */
+}
+
+.icon-trophy.bronze:before {
+  content: "\1F949"; /* Bronze trophy/medal */
+}
+
+/* Module Board */
+.module-board {
+  flex: 1;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Rounded corners set inline in component */
+}
+
+canvas
+
+/* Last Addition*/
+/* Header Logo */
+.logo {
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* Header Layout */
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Header Right Icons: Render as circles, equal size */
+.header-right i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.header-right i:hover {
+  background-color: #bbb;
+}
+/*.settings-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.settings-dropdown .settings-option {
+  margin-bottom: 10px;
+}*/
+
+/* Use a dedicated settings icon style */
+.icon-settings:before {
+  content: "\2699"; /* You may adjust or replace this with a settings-specific icon */
+}
+/* Canvas for Drawing */
+/* Canvas: Ensure drawing uses correct coordinates */
+.drawing-canvas {
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Icon Styles for Undo (new) */
+.icon-undo:before {
+  content: "\21B6"; /* A counterclockwise arrow */
+}
+
+/* Sidebar Sections */
+.module-assessments, .module-marks {
+  margin-top: 20px;
+}
+
+.module-assessments h2, .module-marks h2 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.module-assessments ul, .module-marks ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Footer Layout */
+.module-footer {
+  height: 7%;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer Tool Groups & Color Picker */
+.footer-left .tool-group {
+  position: relative;
+  margin-right: 15px;
+}
+
+.color-picker {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  display: flex;
+  gap: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.color-option {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+/* Footer Center: Playback Icons */
+.footer-center i {
+  font-size: 28px;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-center i:hover {
+  color: #555;
+}
+
+/* Footer Right: Message Input & Record/Send Icon */
+.footer-right input {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.footer-right i {
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer-right i:hover {
+  color: #555;
+}
+
+/* Icon Styles (using pseudo-elements; replace with your icon library if desired) */
+.icon-profile {
+  background: #fff;
+  color: #3949ab;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.icon-gear:before {
+  content: "\2699"; /* Gear */
+}
+
+.icon-help:before {
+  content: "\2753"; /* Help (question mark) */
+}
+
+.icon-chat:before {
+  content: "\1F4AC"; /* Chat bubble */
+}
+
+.icon-progress:before {
+  content: "\1F4CA"; /* Bar chart */
+}
+
+.icon-home:before {
+  content: "\2302"; /* Home */
+}
+
+.icon-library:before {
+  content: "\1F4DA"; /* Books */
+}
+
+.icon-pen:before {
+  content: "\270E";  /* Pencil */
+}
+
+.icon-highlighter:before {
+  content: "\1F58B"; /* Highlighter */
+}
+
+.icon-eraser:before {
+  content: "\1F58A"; /* Eraser */
+}
+
+.icon-tools:before {
+  content: "\2699";  /* Gear (for tools) */
+}
+
+.icon-previous:before {
+  content: "\23EE";  /* Previous */
+}
+
+.icon-play:before {
+  content: "\25B6";  /* Play */
+}
+
+.icon-play.pause:before {
+  content: "\23F8";  /* Pause */
+}
+
+.icon-record:before {
+  content: "\1F3A4";  /* Microphone */
+}
+
+.icon-record.send:before {
+  content: "\27A4";  /* Send arrow */
+} 
+
+
+/* ---------- Login Page ---------- */
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+.login-logo {
+  position: absolute;
+  left: 10px;
+  height: 40px;
+  width: auto;
+}
+.login-title {
+  font-size: 24px;
+  text-align: center;
+}
+.login-profile {
+  position: absolute;
+  right: 10px;
+}
+.profile-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+.profile-menu button {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.login-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background: #eee;
+}
+.icon-facebook:before {
+  content: "\f09a"; /* adjust using your icon library */
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-tiktok:before {
+  content: "\e07b";
+}
+
+/* ---------- Dashboard Header ---------- */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.sidebar-toggle {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.dashboard-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+.dashboard-title {
+  font-size: 24px;
+  margin: 0;
+}
+.header-right i {
+  margin-left: 15px;
+}
+
+/* Welcome Card Progress Bar */
+.welcome-card .progress-bar {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+/* ---------- Module Page Header ---------- */
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.module-header-left {
+  display: flex;
+  align-items: center;
+}
+.module-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+.module-brand {
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.module-header-center {
+  flex: 1;
+  text-align: center;
+}
+
+/* ---------- Module Sidebar ---------- */
+.module-sidebar {
+  width: 25%;
+  background: #f5f5f5;
+  padding: 20px;
+}
+.sidebar-section {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* ---------- Module Board ---------- */
+.module-board {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+}
+.drawing-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- Module Footer ---------- */
+.module-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #e0e0e0;
+}
+.footer-left, .footer-center, .footer-right {
+  display: flex;
+  align-items: center;
+}
+.tool-group {
+  position: relative;
+  margin-right: 10px;
+}
+.color-picker {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  display: flex;
+  gap: 5px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+  z-index: 10;
+}
+.color-option {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.footer-right input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* ---------- Header Right Icons as Circles ---------- */
+.header-right i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.header-right i:hover {
+  background: #bbb;
+}

@@ -1,0 +1,969 @@
+Compiled with problems:
+×
+ERROR in ./node_modules/@firebase/database-compat/dist/index.standalone.js 9:19-36
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@firebase\database-compat\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@firebase/database-compat/dist/index.standalone.js 10:19-36
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@firebase\database-compat\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@firebase/database-compat/dist/index.standalone.js 12:19-33
+Module not found: Error: Can't resolve 'net' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@firebase\database-compat\dist'
+ERROR in ./node_modules/@firebase/database-compat/dist/index.standalone.js 13:19-33
+Module not found: Error: Can't resolve 'tls' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@firebase\database-compat\dist'
+ERROR in ./node_modules/@google-cloud/firestore/build/src/index.js 22:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/firestore/build/src/reference/aggregate-query.js 30:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src\reference'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/firestore/build/src/reference/query-util.js 22:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src\reference'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/firestore/build/src/reference/query.js 22:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src\reference'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/firestore/build/src/util.js 38:17-34
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@google-cloud/firestore/build/src/v1/firestore_client.js 24:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src\v1'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/firestore/build/src/v1beta1/firestore_client.js 24:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\firestore\build\src\v1beta1'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/paginator/build/src/resource-stream.js 22:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\paginator\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/projectify/build/src/index.js 7:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\projectify\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/firebase-admin/lib/app/credential-internal.js 26:11-24
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\app'
+ERROR in ./node_modules/firebase-admin/lib/app/lifecycle.js 28:11-24
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\app'
+ERROR in ./node_modules/firebase-admin/lib/database/database.js 24:13-28
+Module not found: Error: Can't resolve 'path' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\database'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+ERROR in ./node_modules/firebase-admin/lib/remote-config/condition-evaluator-internal.js 24:17-34
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\remote-config'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/firebase-admin/lib/utils/api-request.js 28:13-28
+Module not found: Error: Can't resolve 'http' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\utils'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+	- install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "http": false }
+ERROR in ./node_modules/firebase-admin/lib/utils/api-request.js 29:14-30
+Module not found: Error: Can't resolve 'https' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\utils'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+ERROR in ./node_modules/firebase-admin/lib/utils/api-request.js 30:14-30
+Module not found: Error: Can't resolve 'http2' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\utils'
+ERROR in ./node_modules/firebase-admin/lib/utils/api-request.js 549:19-34
+Module not found: Error: Can't resolve 'zlib' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\utils'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "zlib": require.resolve("browserify-zlib") }'
+	- install 'browserify-zlib'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "zlib": false }
+ERROR in ./node_modules/firebase-admin/lib/utils/crypto-signer.js 54:19-36
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\firebase-admin\lib\utils'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/gaxios/build/src/gaxios.js 68:16-32
+Module not found: Error: Can't resolve 'https' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+ERROR in ./node_modules/gaxios/build/src/gaxios.js 70:38-60
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/gaxios/build/src/gaxios.js 75:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/gaxios/node_modules/agent-base/dist/helpers.js 38:26-41
+Module not found: Error: Can't resolve 'http' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\agent-base\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+	- install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "http": false }
+ERROR in ./node_modules/gaxios/node_modules/agent-base/dist/helpers.js 39:27-43
+Module not found: Error: Can't resolve 'https' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\agent-base\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+ERROR in ./node_modules/gaxios/node_modules/agent-base/dist/index.js 41:25-39
+Module not found: Error: Can't resolve 'net' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\agent-base\dist'
+ERROR in ./node_modules/gaxios/node_modules/agent-base/dist/index.js 42:26-41
+Module not found: Error: Can't resolve 'http' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\agent-base\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+	- install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "http": false }
+ERROR in ./node_modules/gaxios/node_modules/agent-base/dist/index.js 43:16-32
+Module not found: Error: Can't resolve 'https' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\agent-base\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+ERROR in ./node_modules/gaxios/node_modules/https-proxy-agent/dist/index.js 43:25-39
+Module not found: Error: Can't resolve 'net' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\https-proxy-agent\dist'
+ERROR in ./node_modules/gaxios/node_modules/https-proxy-agent/dist/index.js 44:25-39
+Module not found: Error: Can't resolve 'tls' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gaxios\node_modules\https-proxy-agent\dist'
+ERROR in ./node_modules/gcp-metadata/build/src/gcp-residency.js 27:13-26
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gcp-metadata\build\src'
+ERROR in ./node_modules/gcp-metadata/build/src/gcp-residency.js 28:13-26
+Module not found: Error: Can't resolve 'os' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gcp-metadata\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+	- install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "os": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/baseexternalclient.js 32:15-32
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/downscopedclient.js 20:15-32
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/externalAccountAuthorizedUserClient.js 23:15-32
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/filesubjecttokensupplier.js 22:11-24
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 32:24-48
+Module not found: Error: Can't resolve 'child_process' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 33:11-24
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 35:11-24
+Module not found: Error: Can't resolve 'os' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+	- install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "os": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/googleauth.js 36:13-28
+Module not found: Error: Can't resolve 'path' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/oauth2client.js 21:20-42
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/oauth2client.js 22:15-32
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/oauth2common.js 21:20-42
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/pluggable-auth-handler.js 22:21-45
+Module not found: Error: Can't resolve 'child_process' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+ERROR in ./node_modules/google-auth-library/build/src/auth/pluggable-auth-handler.js 23:11-24
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+ERROR in ./node_modules/google-auth-library/build/src/auth/refreshclient.js 21:22-44
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/google-auth-library/build/src/auth/stscredentials.js 21:20-42
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/google-auth-library/build/src/crypto/node/crypto.js 20:15-32
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-auth-library\build\src\crypto\node'
+Did you mean './crypto'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, C:\Users\LENOVO\Desktop\my-edu-app\node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/google-gax/build/src/fallbackServiceStub.js 28:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-gax\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-gax/build/src/paginationCalls/pageDescriptor.js 22:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-gax\build\src\paginationCalls'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-gax/build/src/routingHeader.js 22:20-42
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-gax\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/google-gax/build/src/streamArrayParser.js 23:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-gax\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/google-gax/build/src/streamingRetryRequest.js 19:4-21
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\google-gax\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/gtoken/build/src/index.js 25:11-24
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gtoken\build\src'
+ERROR in ./node_modules/gtoken/build/src/index.js 28:13-28
+Module not found: Error: Can't resolve 'path' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\gtoken\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 38:30-44
+Module not found: Error: Can't resolve 'net' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\https-proxy-agent\dist'
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 39:30-44
+Module not found: Error: Can't resolve 'tls' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\https-proxy-agent\dist'
+ERROR in ./node_modules/jsonwebtoken/node_modules/jwa/index.js 3:13-30
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jsonwebtoken\node_modules\jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/jsonwebtoken/node_modules/jws/lib/data-stream.js 3:13-30
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jsonwebtoken\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/jsonwebtoken/node_modules/jws/lib/sign-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jsonwebtoken\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/jsonwebtoken/node_modules/jws/lib/verify-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jsonwebtoken\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/jsonwebtoken/sign.js 16:4-21
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jsonwebtoken'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/jsonwebtoken/verify.js 13:4-21
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jsonwebtoken'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/jwa/index.js 3:13-30
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/jwks-rsa/src/wrappers/request.js 1:13-28
+Module not found: Error: Can't resolve 'http' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jwks-rsa\src\wrappers'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+	- install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "http": false }
+ERROR in ./node_modules/jwks-rsa/src/wrappers/request.js 2:14-30
+Module not found: Error: Can't resolve 'https' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jwks-rsa\src\wrappers'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+ERROR in ./node_modules/jws/lib/data-stream.js 3:13-30
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/jws/lib/sign-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/jws/lib/verify-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/retry-request/index.js 5:4-21
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\retry-request'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/teeny-request/build/src/agents.js 23:15-30
+Module not found: Error: Can't resolve 'http' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\teeny-request\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+	- install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "http": false }
+ERROR in ./node_modules/teeny-request/build/src/agents.js 24:16-32
+Module not found: Error: Can't resolve 'https' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\teeny-request\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+	- install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "https": false }
+ERROR in ./node_modules/teeny-request/build/src/index.js 24:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\teeny-request\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/teeny-request/build/src/index.js 70:15-37
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\teeny-request\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/teeny-request/node_modules/http-proxy-agent/dist/agent.js 38:30-44
+Module not found: Error: Can't resolve 'net' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\teeny-request\node_modules\http-proxy-agent\dist'
+ERROR in ./node_modules/teeny-request/node_modules/http-proxy-agent/dist/agent.js 39:30-44
+Module not found: Error: Can't resolve 'tls' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\teeny-request\node_modules\http-proxy-agent\dist'
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/bucket.js 69:24-37
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/bucket.js 71:26-41
+Module not found: Error: Can't resolve 'path' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/bucket.js 82:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/crc32c.js 32:13-26
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/file.js 74:28-45
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/file.js 75:24-37
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/file.js 78:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/file.js 79:26-41
+Module not found: Error: Can't resolve 'zlib' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "zlib": require.resolve("browserify-zlib") }'
+	- install 'browserify-zlib'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "zlib": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/hash-stream-validator.js 32:17-34
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/hash-stream-validator.js 33:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/nodejs-common/util.js 75:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src\nodejs-common'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/resumable-upload.js 82:17-34
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/resumable-upload.js 85:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/signer.js 61:28-45
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/storage.js 23:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/transfer-manager.js 76:26-41
+Module not found: Error: Can't resolve 'path' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/transfer-manager.js 77:13-26
+Module not found: Error: Can't resolve 'fs' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/transfer-manager.js 82:17-34
+Module not found: Error: Can't resolve 'crypto' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+	- install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "crypto": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/util.js 74:26-41
+Module not found: Error: Can't resolve 'path' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+	- install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "path": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/util.js 75:33-55
+Module not found: Error: Can't resolve 'querystring' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "querystring": require.resolve("querystring-es3") }'
+	- install 'querystring-es3'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "querystring": false }
+ERROR in ./node_modules/@google-cloud/storage/build/cjs/src/util.js 76:17-34
+Module not found: Error: Can't resolve 'stream' in 'C:\Users\LENOVO\Desktop\my-edu-app\node_modules\@google-cloud\storage\build\cjs\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+	- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+	- install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+	resolve.fallback: { "stream": false }
+ERROR in node:events
+Module build failed: UnhandledSchemeError: Reading from "node:events" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "node:" URIs.
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:984:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at Object.processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:980:8)
+    at processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:220:11)
+    at iteratePitchingLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:171:10)
+    at runLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:398:2)
+    at NormalModule._doBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:965:3)
+    at NormalModule.build (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1155:15)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1422:12
+    at NormalModule.needBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1477:32)
+    at Compilation._buildModule (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1403:10)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:340:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncQueue._startProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:330:26)
+    at AsyncQueue._ensureProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:317:12)
+    at process.processImmediate (node:internal/timers:476:21)
+ERROR in node:process
+Module build failed: UnhandledSchemeError: Reading from "node:process" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "node:" URIs.
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:984:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at Object.processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:980:8)
+    at processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:220:11)
+    at iteratePitchingLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:171:10)
+    at runLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:398:2)
+    at NormalModule._doBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:965:3)
+    at NormalModule.build (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1155:15)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1422:12
+    at NormalModule.needBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1477:32)
+    at Compilation._buildModule (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1403:10)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:340:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncQueue._startProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:330:26)
+    at AsyncQueue._ensureProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:317:12)
+    at process.processImmediate (node:internal/timers:476:21)
+ERROR in node:stream
+Module build failed: UnhandledSchemeError: Reading from "node:stream" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "node:" URIs.
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:984:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\Hook.js:18:14)
+    at Object.processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:980:8)
+    at processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:220:11)
+    at iteratePitchingLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:171:10)
+    at runLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:398:2)
+    at NormalModule._doBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:965:3)
+    at NormalModule.build (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1155:15)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1422:12
+    at NormalModule.needBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1477:32)
+    at Compilation._buildModule (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1403:10)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:340:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncQueue._startProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:330:26)
+    at AsyncQueue._ensureProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:317:12)
+    at process.processImmediate (node:internal/timers:476:21)
+ERROR in node:util
+Module build failed: UnhandledSchemeError: Reading from "node:util" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "node:" URIs.
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:984:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at Object.processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:980:8)
+    at processResource (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:220:11)
+    at iteratePitchingLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:171:10)
+    at runLoaders (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\loader-runner\lib\LoaderRunner.js:398:2)
+    at NormalModule._doBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:965:3)
+    at NormalModule.build (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1155:15)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1422:12
+    at NormalModule.needBuild (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\NormalModule.js:1477:32)
+    at Compilation._buildModule (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\Compilation.js:1403:10)
+    at C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:340:10
+    at Hook.eval [as callAsync] (eval at create (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncQueue._startProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:330:26)
+    at AsyncQueue._ensureProcessing (C:\Users\LENOVO\Desktop\my-edu-app\node_modules\webpack\lib\util\AsyncQueue.js:317:12)
+    at process.processImmediate (node:internal/timers:476:21)

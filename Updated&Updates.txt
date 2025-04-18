@@ -1,0 +1,7 @@
+Managed to do:
+-Integrated Firebase, registration from...
+To-do next:
+
+-Dynamic module rendering.
+-Responsive form.
+-Profile and Welcome card update with user's details.
